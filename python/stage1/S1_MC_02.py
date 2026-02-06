@@ -16,4 +16,4 @@ print(run_command("stop"))     # STOPPING
 print(run_command("status"))   # STATUS_OK
 print(run_command("hello"))    # UNKNOWN_COMMAND
 print(run_command(""))         # UNKNOWN_COMMAND
-print(run_command(None))       # will error (ok to see why)
+print(run_command(None))        # will error (ok to see why)
